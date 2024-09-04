@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <div class="quiz-container">
+      <h1>QuizScript</h1>
+      <h2 id="question">Question</h2>
+      <div class="choices">
+        <button onclick="handleChoice(0)" id="choice">Choice</button>
+        <button onclick="handleChoice(1)" id="choice">Choice</button>
+        <button onclick="handleChoice(2)" id="choice">Choice</button>
+        <button onclick="handleChoice(3)" id="choice">Choice</button>
+      </div>
+      <div id="score"></div>
+      <div class="navigation-buttons">
+        <button onclick="nextQuestion()" id="nextButton">Next Question</button>
+        <button id="restartButton">Restart</button>
+      </div>
+    </div>
+    <script src="App.js"></script>
+  </body>
+</html>
