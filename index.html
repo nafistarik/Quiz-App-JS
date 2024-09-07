@@ -11,6 +11,43 @@
     <title>Quiz App</title>
   </head>
   <body>
+    <div class="home">
+      <h1>Welcome to the <span>QuizScript</span></h1>
+      <div class="quiz-sections">
+        <div class="quiz-section">
+          <h2>JavaScript Quiz</h2>
+          <button class="startButton" onclick="startQuizJS()">
+            Start Quiz
+          </button>
+        </div>
+
+        <div class="quiz-section">
+          <h2>Node.js Quiz</h2>
+          <button class="startButton" onclick="startQuizNode()">
+            Start Quiz
+          </button>
+        </div>
+
+        <div class="quiz-section">
+          <h2>Express.js Quiz</h2>
+          <button class="startButton" onclick="startQuizExpress()">
+            Start Quiz
+          </button>
+        </div>
+
+        <div class="quiz-section">
+          <h2>React.js Quiz</h2>
+          <button class="startButton" onclick="startQuizReact()">
+            Start Quiz
+          </button>
+        </div>
+      </div>
+      <p id="instructions">
+        Click on the correct answer button to advance to the next question.
+        Click on the "Restart" button to start over the quiz.
+      </p>
+    </div>
+
     <div class="quiz-container">
       <h1>QuizScript</h1>
       <h2 id="question">Question</h2>
